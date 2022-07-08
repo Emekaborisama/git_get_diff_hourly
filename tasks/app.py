@@ -7,7 +7,7 @@ import urllib3
 from datetime import datetime
 import os
 sotr_cred = {"key":os.getenv("AWS_ACCESS_KEY_ID"), "secret":os.getenv("AWS_SECRET_ACCESS_KEY")}
-github_t= os.getenv("github_token")
+github_t= os.getenv("GITHUB_TOKEN")
 # def get_diff_commit(id_repo):
 #   try:
 #     request_url = urllib.request.urlopen('https://github.com/'+id_repo,  timeout=1)
