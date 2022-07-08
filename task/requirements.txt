@@ -1,0 +1,10 @@
+github3.py
+urllib3
+modin
+modin[all]
+fsspec
+s3fs
+awscli
+magniv==0.1.33
+github3.py
+urllib3
